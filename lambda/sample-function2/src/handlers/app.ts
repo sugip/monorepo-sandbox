@@ -1,6 +1,6 @@
 export const lambdaHandler = async (): Promise<boolean> => {
   try {
-    console.log("Hello, World!");
+    console.log('Hello, World! from sample-function2');
     return true;
   } catch (err) {
     console.log(err);
