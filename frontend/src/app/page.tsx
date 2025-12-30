@@ -1,4 +1,4 @@
-import { getNow } from "@/lib/date-utils";
+import { getNow } from "shared-libs/date-utils";
 
 export default function Home() {
   return (

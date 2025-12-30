@@ -1,0 +1,11 @@
+{
+  "name": "yarn-workspaces",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "lambda/sample-function1",
+    "lambda/sample-function2",
+    "shared/libs"
+  ]
+}

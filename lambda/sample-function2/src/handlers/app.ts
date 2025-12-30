@@ -1,4 +1,4 @@
-import { getNow } from "../libs/date-utils";
+import { getNow } from 'shared-libs/date-utils';
 
 export const lambdaHandler = async (): Promise<boolean> => {
   try {

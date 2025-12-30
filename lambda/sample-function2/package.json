@@ -1,5 +1,5 @@
 {
-  "name": "sample-function1",
+  "name": "sample-function2",
   "version": "1.0.0",
   "main": "app.js",
   "private": true,
@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "dayjs": "^1.11.19",
-    "esbuild": "^0.14.14"
+    "esbuild": "^0.14.14",
+    "shared-libs": "*"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.10",
