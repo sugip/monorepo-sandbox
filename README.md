@@ -16,6 +16,9 @@
     - `yarn workspaces focus` はBerry（v2以降）で追加された
 - 特定のworkspaceのスクリプトを実行するにはルートディレクトリで `yarn workspace ${workspace_name} ${script_name}`
   - `cd ${workspace_dir} && yarn run ${script_name}` でも動くようだ
+- workspaceのpackage.jsonにおいて、 `installConfig.hoistingLimits` の値をworkspaceにしておくと、hoistingを回避できる
+  - hoisting: yarn installしたときにルートディレクトリのnode_modulesに依存がインストールされること
+
 
 # Commands
 
