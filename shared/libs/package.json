@@ -2,7 +2,7 @@
   "name": "shared-libs",
   "version": "1.0.0",
   "private": true,
-  "main": "date-utils.ts",
+  "main": "index.ts",
   "dependencies": {
     "dayjs": "^1.11.19"
   },

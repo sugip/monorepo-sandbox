@@ -14,7 +14,7 @@ Resources:
   SampleFunction1:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: ../../sample-function1/
+      CodeUri: ../../../
       Handler: app.lambdaHandler
       Runtime: nodejs24.x
       Architectures:
@@ -30,11 +30,11 @@ Resources:
         Minify: true
         Target: "es2020"
         EntryPoints:
-          - src/handlers/app.ts
+          - lambda/sample-function1/src/handlers/app.ts
   SampleFunction2:
     Type: AWS::Serverless::Function # More info about Function Resource: https://github.com/awslabs/serverless-application-model/blob/master/versions/2016-10-31.md#awsserverlessfunction
     Properties:
-      CodeUri: ../../sample-function2/
+      CodeUri: ../../../
       Handler: app.lambdaHandler
       Runtime: nodejs24.x
       Architectures:
@@ -50,4 +50,4 @@ Resources:
         Minify: true
         Target: "es2020"
         EntryPoints:
-          - src/handlers/app.ts
+          - lambda/sample-function2/src/handlers/app.ts
