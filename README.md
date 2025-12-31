@@ -18,6 +18,8 @@
   - `cd ${workspace_dir} && yarn run ${script_name}` でも動くようだ
 - workspaceのpackage.jsonにおいて、 `installConfig.hoistingLimits` の値をworkspaceにしておくと、hoistingを回避できる
   - hoisting: yarn installしたときにルートディレクトリのnode_modulesに依存がインストールされること
+- sam buildにてnpm installが実行されるためエラーとなる
+ - hoistingを回避した上で、sam build --build-in-sourceにすると成功した
 
 
 # Commands
